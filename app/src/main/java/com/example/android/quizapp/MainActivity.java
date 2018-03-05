@@ -1,9 +1,11 @@
 package com.example.android.quizapp;
 
 import android.app.Dialog;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioButton;
@@ -63,6 +65,8 @@ public class MainActivity extends AppCompatActivity {
         question9=findViewById(R.id.radiogrp_9);
         question9_answer=findViewById(R.id.radio_question_9_c);
         question_10=findViewById(R.id.question_10_text);
+
+
     }
     //Reset methods will clear all options when RESET button pressed
     public void reset(View view){
@@ -114,8 +118,14 @@ public class MainActivity extends AppCompatActivity {
         if(s.toUpperCase().equals("DECISION TREE")){
             score++;
         }
-        Toast.makeText(MainActivity.this,
+      /*  Toast.makeText(MainActivity.this,
                 "Your total: "+score, Toast.LENGTH_LONG).show();
-        score=0;
+                */
+      /*
+      New intent to launch the share screen
+       */
+        Intent shareIntent = new Intent(MainActivity.this, ShareActivity.class);
+        shareIntent.putExtra("score", score);
+        startActivity(shareIntent);
     }
 }

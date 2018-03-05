@@ -29,8 +29,6 @@
     <string name="question_3_d">Micro-controller</string>
 
 
-
-
     <string name="question_5_a">Database Management System</string>
     <string name="question_5_b">Decentralized System</string>
     <string name="question_5_c">Centralized System</string>
@@ -55,4 +53,5 @@
     <string name="question_9_b">Quick Sort</string>
     <string name="question_9_c">Bubble Sort</string>
     <string name="question_9_d">Shell Sort</string>
+    <string name="share_button">Share your result</string>
 </resources>
