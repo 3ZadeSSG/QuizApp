@@ -4,6 +4,7 @@ This App is developed taking the Project Rubric Guide of Lesson 12:Quiz App of U
 1. App contains total of 10 Question including one question with EditText, one with CheckBox and remaining with RadioBUttons
 2. There is two buttons added, one for Submit and one for Reset.
 3. On hitting Submit button app with show a toast message about score
+  (Update as per mentor feedback i have removed toast message with a code to launch second screen with only one button to share the score using Implict Intent)
 4. Reset button will make app to resert to initial state.
 
 ## Approach Used
