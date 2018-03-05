@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="question_1">1) Which instructions are related to Intel-8086?</string>
+    <string name="question_2">2) What is benchmark score of fastest super computer in world?</string>
+    <string name="question_3">3) Harvard Architecture is related to which of the following?</string>
+    <string name="question_4">4) Which of following represent a LED?</string>
+    <string name="question_5">5) Block chain is an example of: </string>
+    <string name="question_6">6) In microprocessor PC stands for: </string>
+    <string name="question_7">7) In OSI model, switch operates on which layer?</string>
+    <string name="question_8">8) Time complexity in average of search in a binary search tree is:</string>
+    <string name="question_9">9) Which sorting technique is worst in case of time complexity</string>
+    <string name="question_10">10) To predict outcome dependent on data available which tree is used</string>
+    <string name="submit">Submit Answer</string>
+    <string name="reset">Restart Quiz</string>
+
+    <string name="question_1_a">MOV AX,@data</string>
+    <string name="question_1_b">MOV AX,DX</string>
+    <string name="question_1_c">ADD AL,BL</string>
+    <string name="question_1_d">SUB AX,EX</string>
+
+    <string name="question_2_a">25.5 PFLOPS</string>
+    <string name="question_2_b">56 PFLOPS</string>
+    <string name="question_2_c">8 TFLOPS</string>
+    <string name="question_2_d">93 PFLOPS</string>
+
+    <string name="question_3_a">Building\'s Exterior Design</string>
+    <string name="question_3_b">Car\'s Engine</string>
+    <string name="question_3_c">Microprocessor</string>
+    <string name="question_3_d">Micro-controller</string>
+
+
+
+
+    <string name="question_5_a">Database Management System</string>
+    <string name="question_5_b">Decentralized System</string>
+    <string name="question_5_c">Centralized System</string>
+    <string name="question_5_d">None of these</string>
+
+    <string name="question_6_a">Program Counter</string>
+    <string name="question_6_b">Personal Computer</string>
+    <string name="question_6_c">Prefix Counter</string>
+    <string name="question_6_d">Postfix Counter</string>
+
+    <string name="question_7_a">Layer 1(Physical Layer)</string>
+    <string name="question_7_b">Layer 2(Data Link Layer)</string>
+    <string name="question_7_c">Layer 3(Network Layer) </string>
+    <string name="question_7_d">Layer 4(Transport Layer)</string>
+
+    <string name="question_8_a">O(1)</string>
+    <string name="question_8_b">O(n^2)</string>
+    <string name="question_8_c">O(logN)</string>
+    <string name="question_8_d">O(NlogN)</string>
+
+    <string name="question_9_a">Merge Sort</string>
+    <string name="question_9_b">Quick Sort</string>
+    <string name="question_9_c">Bubble Sort</string>
+    <string name="question_9_d">Shell Sort</string>
+</resources>
