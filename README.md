@@ -1,5 +1,5 @@
 # QuizApp
-This App is developed taking the Project Rubric Guide of Lesson 12:Quiz App of Udacity
+This app implements use of differenet nested layouts and different buttons, textboxes and intent (for sharing score). 
  
  Pre-requisites
 --------------
