@@ -14,8 +14,5 @@ Getting Started
 This sample uses the Gradle build system. To build this project, use the
 "gradlew build" command or use "Import Project" in Android Studio.
  
-##ScreenShot
-![alt text](https://github.com/manugond/QuizApp/blob/master/Screenshot01.png)
-![alt text](https://github.com/manugond/QuizApp/blob/master/Screenshot1.png)
 
 
