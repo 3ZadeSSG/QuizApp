@@ -1,7 +1,7 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">#03A9F4</item>
         <item name="colorPrimaryDark">#000000</item>
@@ -10,9 +10,10 @@
         <item name="android:textColor">#000000</item>
     </style>
     <style name="MyStyle" parent="AppTheme">
-        <item name="android:elevation">16dp</item>
-        <item name="android:layout_margin">8dp</item>
-        <item name="android:padding">8dp</item>
+        <item name="android:elevation">8dp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:padding">10dp</item>
+
         <item name="android:background">@drawable/myshape</item>
         <item name="android:textColor">#000000</item>
     </style>
